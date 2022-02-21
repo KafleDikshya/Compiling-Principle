@@ -1,0 +1,15 @@
+INT ah
+FUNC INT add
+PARA INT x
+$VAR0 = 3 * x
+RT $VAR0
+FUNC VOID main
+ARRAY INT a 10
+INT i
+i = 0
+$VAR0 = i >= 0
+EQUZ $VAR0 LABEL0
+a[i] = i
+SET LABEL0
+END
+END
